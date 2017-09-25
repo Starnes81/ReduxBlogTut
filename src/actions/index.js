@@ -8,7 +8,7 @@ export function fetchPosts() {
 	//pass in request url
 		const request = axios.get(`$ROOT_URL/posts${API_KEY}`);
 	return {
-		type: FETCH_POSTS
+		type: FETCH_POSTS,
 		payload: request
 	};
 }

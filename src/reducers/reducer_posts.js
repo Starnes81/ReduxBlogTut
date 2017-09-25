@@ -8,6 +8,6 @@ export default function(state, action) {
 			return _.mapKeys(action.payload.data, 'id');
 
 		default:
-			return:state;
+			return state;
 	}
 }
